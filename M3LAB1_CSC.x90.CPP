@@ -51,5 +51,5 @@ int main() {
 
     // finish up
     cout << "\nAdventure completed (for now)!" << endl;
-    return 0;
+    return 0; }
      // exit without error
