@@ -30,7 +30,7 @@ double getLength() {
         cin.ignore(1000, '\n');
         cout << "Invalid input. Please try again." << endl;
         // In a real program, you'd likely loop until valid input is given.
-        // For this task, we'll keep it simple, but be aware of this limitation.
+        
     }
     return length;
 }
