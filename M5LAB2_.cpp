@@ -23,13 +23,10 @@ double getLength() {
     double length;
     cout << "Enter the rectangle's length: ";
     // Fixed: The original code in main was missing a semicolon here,
-    // and this function needs to perform the input operation.
     if (!(cin >> length)) {
-        // Simple error handling for non-numeric input (optional but good practice)
         cin.clear();
         cin.ignore(1000, '\n');
         cout << "Invalid input. Please try again." << endl;
-        // In a real program, you'd likely loop until valid input is given.
         
     }
     return length;
@@ -44,7 +41,6 @@ double getWidth() {
     cout << "Enter the rectangle's width: ";
     // Fixed: Similar issue as getLength, it needs to handle the input.
     if (!(cin >> width)) {
-        // Simple error handling
         cin.clear();
         cin.ignore(1000, '\n');
         cout << "Invalid input. Please try again." << endl;
